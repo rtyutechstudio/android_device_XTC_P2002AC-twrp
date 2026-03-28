@@ -148,6 +148,11 @@ TW_Y_OFFSET := 1
 TW_H_OFFSET := -1
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
+TARGET_SUPPORTS_64_BIT_APPS := true
+
+# Display Configuration
+TARGET_SCREEN_WIDTH := 1620
+TARGET_SCREEN_HEIGHT := 2160
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
@@ -211,6 +216,3 @@ TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(TARGET_OUT_EXECUTABLES)/debuggerd
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# Display Configuration
-TARGET_SCREEN_WIDTH := 1620
-TARGET_SCREEN_HEIGHT := 2160
