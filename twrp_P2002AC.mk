@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-# Inherit from J706F device
+# Inherit from XTC T1 device
 $(call inherit-product, device/XTC/P2002AC/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
