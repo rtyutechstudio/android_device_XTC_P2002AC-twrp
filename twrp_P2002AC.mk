@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 PRODUCT_RELEASE_NAME := P2002AC
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := J706F
+PRODUCT_DEVICE := P2002AC
 PRODUCT_NAME := twrp_P2002AC
 PRODUCT_BRAND := XTC
 PRODUCT_MODEL := XTC P2002AC
